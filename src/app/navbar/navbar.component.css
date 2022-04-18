@@ -1,1 +1,8 @@
- 
+ .nav {
+     justify-content: space-between;
+    
+ }
+ .nav a{
+     margin: 5px 8px;
+     
+ }
