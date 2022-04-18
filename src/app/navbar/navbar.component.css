@@ -1,16 +1,1 @@
  
-.navbar{
-    font-weight: 900;
-    background-color: #14213d;
-    text-shadow: 2px 2px #1f2022;
-    padding:2%;
-    display: flex;
-
-}
-.navbar a{
-    /* justify-content: space-around; */
-    /* align-items: center;
-    flex-wrap: wrap; */
-    float: left;
-
-}

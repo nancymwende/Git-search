@@ -3,10 +3,21 @@
     <img src="{{User.avatar_url}}">
 </div> -->
 <div class="container">
-      <img src="{{User.avatar_url}}">
-      <h2>{{User.login}}</h2>
-      <h2>{{User.location}}</h2>
-      <h1>{{User.bio}}</h1>
-      
-    
+  <img src="{{User.avatar_url}}">
+  <p>{{User.login}}</p>
+  <p>{{User.location}}</p>
+  <p>{{User.bio}}</p>
+  <!-- <a>{{User.public_repos}}</a> -->
+  <a href="repos_url" target="_blank">{{User.repos_url}}</a>
+
+
+</div>
+<div class="container-fluid">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
 </div>
