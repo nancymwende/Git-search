@@ -2,7 +2,7 @@
 By Nancy Mwende.
 
 ### Screenshot
-<!-- <img src ="src/assets/quotescnshot.png"> -->
+<img src ="src/assets/git-search.png">
 
 
 ## Description
