@@ -40,27 +40,4 @@ export class APIService {
   }
 }
 
-     
-     
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // map
