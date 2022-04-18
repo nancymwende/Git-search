@@ -2,6 +2,11 @@
     <p>{{User.following}}</p>
     <img src="{{User.avatar_url}}">
 </div> -->
+ <form class="d-flex">
+   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="Username"
+     name="username" (keyup)="findUser()">
+
+ </form>
 <div class="container">
   <img src="{{User.avatar_url}}">
   <p>{{User.login}}</p>
@@ -12,12 +17,19 @@
 
 
 </div>
-<div class="container-fluid">
-  <div class="card" style="width: 18rem;">
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="col-md-12 repo m-3">
+  <div class="row">
+    <div class="col-md-4 card" *ngFor="let repo of repos">
+      <a href="{{repo.html_url}}">
+        <h5>{{repo.name}}</h5>
+        <p>{{repo.description}}</p>
+      </a>
+      <div class="repo">
+        <p>{{repo.language}}</p>
+        <p>Created on {{repo.created_at | date}}</p>
+        <p>{{repo.forks_count}} forks </p>
+      </div>
+
     </div>
   </div>
 </div>
